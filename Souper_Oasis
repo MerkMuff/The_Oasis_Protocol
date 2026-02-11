@@ -1,0 +1,86 @@
+# The Oasis Protocol (Souper Cycle)
+
+![Status](https://img.shields.io/badge/Status-Prototype-orange) ![License](https://img.shields.io/badge/License-AGPLv3-blue) ![Energy](https://img.shields.io/badge/Energy-Net%20Positive-green) ![Water](https://img.shields.io/badge/Water-Clean-blue)
+
+> **Civilization Design for the Post-Scarcity Era.**
+> A unified infrastructure architecture that transforms "Waste" (Heat) into "Life" (Water) using AI and Solar power.
+
+---
+
+## 🌍 The Mission
+To deploy autonomous, solar-powered "Oasis" units in water-stressed and conflict-prone regions (e.g., Gaza, West Bank, Southern California). By combining **High-Efficiency AI Compute** with **Vacuum Multi-Effect Distillation (VMED)**, we turn the thermodynamic waste of the digital age into the primary resource for peace.
+
+**We do not build Data Centers. We build Civilization Engines.**
+
+---
+
+## 🏗️ Architecture: The Souper Cycle
+
+This system utilizes a closed-loop thermodynamic cycle to solve three problems simultaneously: **Energy Storage**, **Compute Efficiency**, and **Water Scarcity**.
+
+### The Flow
+1. **Input (Sun):** High-Density Agrivoltaics capture solar energy.
+2. **Process (Compute):** Direct DC power runs the servers. AI workloads generate heat.
+3. **Transformation (Distillation):** Waste heat (55°C) powers a Vacuum Multi-Effect Distillation (VMED) system.
+4. **Output (Life):** The system outputs clean water and cooled feed water for the servers.
+
+### System Diagram
+*(See `architecture/system_diagram.mermaid` for the technical flow)*
+
+---
+
+## ⚙️ The Technology Stack
+
+### 1. Energy: The "Direct DC" Grid
+We eliminate the "Conversion Tax" of traditional grids.
+* **Source:** Agrivoltaic Array (Solar + Agriculture).
+* **Architecture:** `Direct DC-to-DC` (Solar → Battery → Server).
+* **Efficiency:** ~15% gain by eliminating Inverter/Rectifier losses.
+* **Scheduler:** "Follow-the-Sun" workload orchestration.
+
+### 2. Compute: The "AI Diet"
+We use AI to reduce the cost of AI.
+* **Knowledge Distillation:** Large "Teacher" models distill knowledge into efficient "Student" models (SLMs).
+* **Hardware:** Low-power ARM/Tensor clusters optimized for heat stability.
+
+### 3. Water: Vacuum Multi-Effect Distillation (VMED)
+We use physics to magnify heat.
+* **Vacuum Physics:** Lowering pressure drops the boiling point of water to **45°C (113°F)**.
+* **The Cascade:** Latent heat from condensation is captured to boil the next batch of water.
+* **Result:** 1 Unit of Energy = **~10 Units of Clean Water**.
+
+---
+
+## 🕊️ Deployment Strategy: Peace Engineering
+
+**The "Souper Container"**
+A standard 40ft shipping container designed for rapid deployment.
+* **Zone A:** 100kW Compute Cluster.
+* **Zone B:** VMED Water Plant (50,000+ Liters/Day).
+* **Zone C:** Community Interface (Charging, Wi-Fi, Water Taps).
+
+**The Economic Loop:**
+* **Revenue:** AI Compute tasks pay for the hardware.
+* **OpEx:** Cooling costs are **$0** (Ocean/Groundwater exchange).
+* **Social Dividend:** Water is provided at near-zero cost to the host community.
+
+---
+
+## ⚖️ License & Dignity
+
+**The Source Code:** Released under the **GNU AGPLv3**.
+* **Free for Open Use:** Anyone can use, modify, and deploy this code, provided they share their improvements back with the community.
+* **Protected:** This license prevents closed-source exploitation of the technology.
+
+**Commercial Use:**
+* Enterprises wishing to use the Oasis Protocol in proprietary systems must obtain a **Commercial License** from The Souper Corporation.
+
+**Ethical Use Policy:**
+* By using this software, you agree to the **Souper Dignity Protocol**: This technology is designed to preserve life. Using it to restrict access to water or coerce populations violates the terms of use.
+
+---
+
+## 🤝 Contributing
+
+We are looking for **Architects**, **Thermodynamic Engineers**, and **Peace Builders**.
+See `CONTRIBUTING.md` for details on how to join the Guild.
