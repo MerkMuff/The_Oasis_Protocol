@@ -8,7 +8,7 @@
 ---
 
 ## 🌍 The Mission
-To deploy autonomous, solar-powered "Oasis" units in water-stressed and conflict-prone regions (e.g., Gaza, West Bank, Southern California). By combining **High-Efficiency AI Compute** with **Vacuum Multi-Effect Distillation (VMED)**, we turn the thermodynamic waste of the digital age into the primary resource for peace.
+To deploy autonomous, solar-powered "Oasis" units in water-stressed and conflict-prone regions (e.g., Gaza, West Bank, Southern California). By combining **High-Efficiency Compute** with **Vacuum Multi-Effect Distillation (VMED)**, we turn the thermodynamic waste of the digital age into the primary resource for peace.
 
 **We do not build Data Centers. We build Civilization Engines.**
 
@@ -20,7 +20,7 @@ This system utilizes a closed-loop thermodynamic cycle to solve three problems s
 
 ### The Flow
 1. **Input (Sun):** High-Density Agrivoltaics capture solar energy.
-2. **Process (Compute):** Direct DC power runs the servers. AI workloads generate heat.
+2. **Process (Compute):** Direct DC power runs the servers. Customers send workloads. The servers generate heat.
 3. **Transformation (Distillation):** Waste heat (55°C) powers a Vacuum Multi-Effect Distillation (VMED) system.
 4. **Output (Life):** The system outputs clean water and cooled feed water for the servers.
 
@@ -38,10 +38,11 @@ We eliminate the "Conversion Tax" of traditional grids.
 * **Efficiency:** ~15% gain by eliminating Inverter/Rectifier losses.
 * **Scheduler:** "Follow-the-Sun" workload orchestration.
 
-### 2. Compute: The "AI Diet"
-We use AI to reduce the cost of AI.
-* **Knowledge Distillation:** Large "Teacher" models distill knowledge into efficient "Student" models (SLMs).
-* **Hardware:** Low-power ARM/Tensor clusters optimized for heat stability.
+### 2. Compute: Infrastructure, Not Product
+Every data center on earth treats thermal output as a cost. We treat it as the product.
+* **Model:** We sell compute capacity. Customers send workloads. The servers generate heat. The heat makes water.
+* **Agnostic:** The system doesn't care what runs on it — inference, training, rendering, simulation. The only thing that matters is that the servers run hot enough to feed the VMED.
+* **Hardware:** Low-power clusters optimized for heat stability and sustained load.
 
 ### 3. Water: Vacuum Multi-Effect Distillation (VMED)
 We use physics to magnify heat.
