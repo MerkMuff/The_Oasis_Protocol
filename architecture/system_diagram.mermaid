@@ -1,0 +1,33 @@
+graph TD
+    %% Energy Inputs
+    Sun[Sunlight] -->|Radiation| PV[Agrivoltaic Solar Array]
+    PV -->|Direct DC| Battery[Battery Storage]
+    PV -->|Direct DC| Servers[Souper Compute Core]
+    Battery -->|Backup Power| Servers
+
+    %% The Engine (Phase 1)
+    subgraph "Phase 1: The Engine (Compute)"
+    Servers -->|AI Workloads| AI[Dignity Protocol / AI Output]
+    Servers -->|Waste Heat 55°C| HeatEx[Heat Exchanger]
+    end
+
+    %% The Transformation (Phase 2)
+    subgraph "Phase 2: The Transformation (Water)"
+    SeaWater[Saline/Brackish Water] --> Vacuum[Vacuum Chamber]
+    HeatEx -->|Thermal Transfer| Vacuum
+    Vacuum -->|Low-Temp Boil| Vapor[Water Vapor]
+    Vapor -->|Condensation| Fresh[Distilled Water]
+    Vapor -->|Latent Heat Release| NextStage[Multi-Effect Cascade]
+    end
+
+    %% The Output (Phase 3)
+    subgraph "Phase 3: The Output (Peace)"
+    Fresh -->|Potable Water| Community[Community Water Tap]
+    Fresh -->|Irrigation| Crops[Agrivoltaic Crops]
+    AI -->|Optimization| Logistics[Town Logistics]
+    end
+
+    %% The Loop
+    SeaWater -->|Cooling Loop| Servers
+    classDef eco fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
+    class Servers,PV,Vacuum eco;
